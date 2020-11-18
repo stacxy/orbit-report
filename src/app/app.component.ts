@@ -1,4 +1,4 @@
-import { Component, OnIt, Input } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 import { Satellite } from './satellite';
 
