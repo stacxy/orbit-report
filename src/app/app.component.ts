@@ -22,7 +22,7 @@ export class AppComponent {
           let fetchedSatellites = data.satellites;
   
           for(let i = 0; i < fetchedSatellites.length; i++) {
-            
+
             let satellite = new Satellite(fetchedSatellites[i].name, 
                fetchedSatellites[i].type,
                fetchedSatellites[i].launchDate, 
@@ -30,7 +30,9 @@ export class AppComponent {
                fetchedSatellites[i].operational);
 
             this.sourceList.push(satellite);
+            
           }
+          
        }.bind(this));
     }.bind(this));
  

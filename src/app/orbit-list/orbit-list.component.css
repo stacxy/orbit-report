@@ -4,7 +4,8 @@
 }
 
 .warning {
-    background-color: rgb(43, 40, 241);
+    background-color: rgb(150, 7, 54);
+    color: white;
 }
 
 table {
