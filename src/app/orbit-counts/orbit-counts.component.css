@@ -1,0 +1,21 @@
+.counts {
+    background: midnightblue ;
+    color: #fff;
+    border-radius: 5px;
+    width: 225px;
+}
+
+table {
+    padding: 8px;
+    border: black;
+    border-radius: 3px;
+    border-width: 2px;
+}
+
+.counts span {
+    float: right;
+}
+
+tr {
+    padding: 10px;
+}
