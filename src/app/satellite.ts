@@ -1,3 +1,5 @@
+import { bindCallback } from "rxjs";
+
 export class Satellite {
     name: string;
     orbitType: string;
@@ -23,7 +25,7 @@ export class Satellite {
         else {
             return false;
         }
-    }
+   }
     
 
 };

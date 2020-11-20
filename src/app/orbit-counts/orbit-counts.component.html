@@ -1,10 +1,16 @@
 <h3>Satellite Counts:</h3>
 <table class="counts">
-   <tr>Total: <span>{{satellites.length}} </span></tr>
-   <tr>Space Debris: <span>1</span></tr>
+    <tr>Total: <span>{{satellites.length}} </span></tr>
+    <tr *ngFor="let list of typeList">{{list}}
+      
+    
+        
+    </tr>
+   
+   <!-- <tr>Space Debris: <span>1</span></tr>
    <tr>Communication: <span>2</span></tr>
    <tr>Probe: <span>2</span></tr>
    <tr>Positioning: <span>1</span></tr>
    <tr>Space Station: <span>2</span></tr>
-   <tr>Telescope: <span>1</span></tr>
+   <tr>Telescope: <span>1</span></tr> -->
 </table>
