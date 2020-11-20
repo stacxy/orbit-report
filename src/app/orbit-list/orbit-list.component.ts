@@ -11,14 +11,13 @@ export class OrbitListComponent implements OnInit {
 
   @Input() satellites: Satellite[];
 
-   
+  shouldShowWarning: boolean;
+
   constructor() { }
   
   ngOnInit() {
     
   }
-
- shouldShowWarning() {}
 
   sort(column: string): void {
    

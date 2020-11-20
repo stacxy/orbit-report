@@ -17,7 +17,7 @@ export class Satellite {
         
     }
 
-    shouldShowWarning() {
+    shouldShowWarning() :boolean {
         let spaceDebris = "Space Debris";
         if(this.type.toLowerCase() === spaceDebris.toLowerCase()) {
            return true;
